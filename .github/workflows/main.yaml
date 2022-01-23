@@ -28,4 +28,4 @@ jobs:
           if [ $GIT_DEFAULT_BRANCH == "(unknown)" ]; then
             VOGSPHERE_DEFAULT_BRANCH="main"
           fi
-          git push vogsphere $VOGSPHERE_DEFAULT_BRANCH
+          git pull vogsphere $VOGSPHERE_DEFAULT_BRANCH
